@@ -5,7 +5,7 @@ import os
 import sys
 sys.stdout.flush()
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID" 
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import time
 import torch.optim as optim
 import numpy as np
